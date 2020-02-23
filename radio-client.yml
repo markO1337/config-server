@@ -1,0 +1,13 @@
+server:
+    port: 8084
+    
+spring:
+    application:
+        name: radio-client
+    profiles:
+        active: testprofile
+        
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8082/eureka/
